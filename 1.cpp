@@ -7,6 +7,13 @@ class test
 		void percentage();
 		void totalmarks();
  };
+void totalmarks()
+{
+	int tm;
+	tm = marks1 + marks2;
+	cout << "total marks are "<<tm;
+}
+
 int main()
 { 
 	test o1,o2;
